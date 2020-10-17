@@ -1,0 +1,252 @@
+/* Código geral, que será herdado por qualquer dispositivos.
+   nesse caso, seria o código usado no desktop, na maioria das   vezes. 
+   Se você já conhecer a ideia do Mobile First, esse primeiro código será destinado para mobiles.
+*/
+/* 
+ Pra dispositivos que tem uma largura de até no máximo 480px.
+*/
+@media screen and (max-width: 480px) {
+ 
+}
+
+/* 
+ Pra dispositivos que tem uma largura de até no máximo 480px.
+*/
+@media screen and (max-width: 767px) {
+  
+}
+
+/* 
+ Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+@media screen and (min-width: 768px) {
+  
+}
+
+/* 
+ Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 992px) {
+  
+}
+
+/* 
+ Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+*/
+@media screen and (min-width: 1200px) {
+
+    body{
+    opacity: 1.9;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#section1{
+    height: 100%;
+    display: flex;
+}
+
+
+aside {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+}
+
+#div1 {
+    /* background-repeat: no-repeat;
+    background-position-x: right; */
+    background-size: 30vw 80vh;
+    width: 45%;
+    height: 80vh;
+}
+
+#div2 {
+    
+    display: flex;
+    width: 50%;
+    height: 70vh;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#titulo{
+    display: inline;
+    margin-left: 0%;
+    width: 60%;
+    z-index: 1;
+    z-index: 1;
+    margin-bottom: 0%;
+    /* height: 50%; */
+}
+
+form{
+    display: flex;
+    align-items: left;
+    width: 100%;
+    flex-direction: column;
+    /* z-index: 1; */
+    /* margin-bottom: 2em; */
+}
+
+input {
+    height: 2vh;
+    width: 54%;
+    padding: 5px 8px;
+    margin-bottom: 1em;
+    margin-left: 0%;
+}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button
+{
+/*color:black;*/
+    display: inline-block;
+    padding: 0em 3em;
+    background: #27AE61;
+    border-radius: 8px;
+    letter-spacing: 0.20em;
+    line-height: 4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    width: 25%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.button:before
+{
+    display: inline-block;
+    background: #FFC31F;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #272925;
+    padding: 2em;
+}
+
+#datas {
+    display: inline;
+    width: 20%;
+    z-index: 2;
+    margin-top: -6%;
+    /* position: relative; */
+    margin-left: 0%;
+    margin-bottom: 1%;
+}
+#gratuito {
+    display: inline;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 37%;
+}
+
+
+#section2{
+    background-image: url(../images/bgtopicos.png);
+    height:60vh;
+}
+
+#perfil{
+    display: inline;
+    width: 65%;
+    height: 100%;
+    margin-left: 38%;
+    /* height: 100%; */
+}
+
+ul{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    /* border: #FFF 0.5px solid; */
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 5vh;
+    /* border-top: #FFF 0.5px dashed; */
+    line-height: 1.5em;
+    width: 75%;
+    height: 100%;
+    text-align: initial;
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#border{
+    border-left: #FFF 0.5px dashed;
+    border-right: #FFF 0.5px dashed;
+    border-top:none;
+    border-bottom:none;
+
+}
+
+#titulo2{
+    display: none;
+}
+
+#section3{
+    display: flex;
+    justify-content: center;
+    border-top: #FFF 0.5px dashed;
+    border-bottom: #FFF 0.5px dashed;
+    height: 40vh;
+    line-height: 1.5em;
+    text-align: center;
+    /* padding: 5em; */
+}
+
+#div3{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    font-size: 17px;
+}
+
+span{
+    line-height: 1em;
+}
+
+#textoChamativo{
+    text-shadow: 2px 2px black;
+    /* font-family: ; */
+    font-size: 5vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+}
+
+p{
+    line-height: 1.2px;
+}
+
+  
+}
